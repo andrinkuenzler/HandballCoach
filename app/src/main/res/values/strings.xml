@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Handball Coach</string>
+
+    <string name="main_preferences_button">Einstellungen</string>
+    <string name="preferences_language_category_title">Spracheinstellungen</string>
+    <string name="preferences_language_list">Sprache</string>
+
+    <string name="preferences_dark_mode_category_title">Dark Mode Einstellungen</string>
+    <string name="preferences_dark_mode_list">Design</string>
 </resources>

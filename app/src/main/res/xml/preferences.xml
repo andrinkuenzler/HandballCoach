@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="preferences_dark_mode_category_title"
+        app:title="@string/preferences_dark_mode_category_title" >
+
+        <ListPreference
+            app:persistent="true"
+            app:defaultValue="System default"
+            app:useSimpleSummaryProvider="true"
+            app:entries="@array/darkModeOptions"
+            app:entryValues="@array/darkModeOptions"
+            app:key="preferences_dark_mode_list"
+            app:title="@string/preferences_dark_mode_list" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="preferences_language_category_title"
+        app:title="@string/preferences_language_category_title" >
+
+        <ListPreference
+            app:persistent="true"
+            app:useSimpleSummaryProvider="true"
+            app:entries="@array/languageOptions"
+            app:entryValues="@array/languageOptions"
+            app:key="preferences_language_list"
+            app:title="@string/preferences_language_list" />
+    </PreferenceCategory>
+</PreferenceScreen>
