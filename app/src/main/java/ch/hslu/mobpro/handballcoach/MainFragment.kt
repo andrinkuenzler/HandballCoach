@@ -23,6 +23,17 @@ class MainFragment: Fragment(R.layout.fragment_main) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        // New Game
+        binding.mainNewGameButton.setOnClickListener{
+            parentFragmentManager
+                .beginTransaction()
+                .replace(R.id.fragment_host, NewGameFragment())
+                .addToBackStack("newGame")
+                .commit()
+        }
+
+        // Preferences
         binding.mainPreferencesButton.setOnClickListener {
             parentFragmentManager
                 .beginTransaction()

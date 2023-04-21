@@ -1,10 +1,28 @@
 <resources>
     <string name="app_name">Handball Coach</string>
 
+    <!--New Game-->
+    <string name="main_new_game_button">New Game</string>
+    <!--New Game-Angriff-->
+    <string name="new_game_attack_title">Attack</string>
+    <string name="new_game_attack_front_left_button">Front Left</string>
+    <string name="new_game_attack_front_mid_button">Front Middle</string>
+    <string name="new_game_attack_front_right_button">Front Right</string>
+    <!--New Game-Save-->
+    <string name="new_game_save_title">Save Game</string>
+    <string name="new_game_save_text">Game name:</string>
+    <string name="new_game_save_name"></string>
+    <string name="new_game_save_button">Save</string>
+
+    <!--Statistics-->
+    <string name="main_statistics_button">Game Statistics</string>
+
+    <!--Preferences-->
     <string name="main_preferences_button">Settings</string>
+    <!--Preferences-Language-->
     <string name="preferences_language_category_title">Language settings</string>
     <string name="preferences_language_list">Language</string>
-
+    <!--Preferences-Theme-->
     <string name="preferences_dark_mode_category_title">Dark Mode Settings</string>
     <string name="preferences_dark_mode_list">Theme</string>
 </resources>
