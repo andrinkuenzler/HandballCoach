@@ -5,14 +5,27 @@
     <string name="main_new_game_button">New Game</string>
     <!--New Game-Angriff-->
     <string name="new_game_attack_title">Attack</string>
-    <string name="new_game_attack_front_left_button">Front Left</string>
-    <string name="new_game_attack_front_mid_button">Front Middle</string>
-    <string name="new_game_attack_front_right_button">Front Right</string>
+    <string name="new_game_attack_front_left_button">Front Left:</string>
+    <string name="new_game_attack_front_mid_button">Front Middle:</string>
+    <string name="new_game_attack_front_right_button">Front Right:</string>
+    <string name="new_game_attack_back_left_button">Back Left:</string>
+    <string name="new_game_attack_back_mid_button">Back Middle:</string>
+    <string name="new_game_attack_back_right_button">Back Right:</string>
+    <!--New Game-Verteidigung-->
+    <string name="new_game_defense_title">Defense</string>
+    <string name="new_game_defense_front_left_button">Front Left:</string>
+    <string name="new_game_defense_front_mid_button">Front Middle:</string>
+    <string name="new_game_defense_front_right_button">Front Right:</string>
+    <string name="new_game_defense_back_left_button">Back Left:</string>
+    <string name="new_game_defense_back_mid_button">Back Middle:</string>
+    <string name="new_game_defense_back_right_button">Back Right:</string>
     <!--New Game-Save-->
     <string name="new_game_save_title">Save Game</string>
     <string name="new_game_save_text">Game name:</string>
     <string name="new_game_save_name"></string>
+    <string name="new_game_save_game_name">e.g. TV Sarnen vs. HC Kriens</string>
     <string name="new_game_save_button">Save</string>
+    <string name="new_game_reset_button">Reset</string>
 
     <!--Statistics-->
     <string name="main_statistics_button">Game Statistics</string>

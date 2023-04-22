@@ -46,6 +46,107 @@
         app:layout_constraintStart_toEndOf="@+id/new_game_attack_front_mid_button"
         app:layout_constraintTop_toBottomOf="@+id/new_game_attack_title" />
 
+    <Button
+        android:id="@+id/new_game_attack_back_left_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_attack_back_left_button"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_attack_back_mid_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_attack_front_left_button" />
+
+    <Button
+        android:id="@+id/new_game_attack_back_mid_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_attack_front_mid_button"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_attack_back_right_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_attack_back_left_button"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_attack_front_mid_button" />
+
+    <Button
+        android:id="@+id/new_game_attack_back_right_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_attack_back_right_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_attack_back_mid_button"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_attack_front_right_button" />
+
+    <TextView
+        android:id="@+id/new_game_defense_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/new_game_defense_title"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_attack_back_mid_button" />
+
+    <Button
+        android:id="@+id/new_game_defense_front_left_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_defense_front_left_button"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_defense_front_mid_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_defense_title" />
+
+    <Button
+        android:id="@+id/new_game_defense_front_mid_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_defense_front_mid_button"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_defense_front_right_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_defense_front_left_button"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_defense_title" />
+
+    <Button
+        android:id="@+id/new_game_defense_front_right_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_defense_front_right_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_defense_front_mid_button"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_defense_title" />
+
+    <Button
+        android:id="@+id/new_game_defense_back_left_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_defense_back_left_button"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_defense_back_mid_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_defense_front_left_button" />
+
+    <Button
+        android:id="@+id/new_game_defense_back_mid_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_defense_back_mid_button"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_defense_back_right_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_defense_back_left_button"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_defense_front_mid_button" />
+
+    <Button
+        android:id="@+id/new_game_defense_back_right_button"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_defense_back_right_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_defense_back_mid_button"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_defense_front_right_button" />
+
     <TextView
         android:id="@+id/new_game_save_title"
         android:layout_width="wrap_content"
@@ -68,9 +169,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="200sp"
+        android:id="@+id/new_game_save_game_name"
+        android:layout_width="250sp"
         android:layout_height="wrap_content"
+        android:autofillHints="name"
+        android:hint="@string/new_game_save_game_name"
+        android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/new_game_save_button"
         app:layout_constraintStart_toEndOf="@+id/new_game_save_text" />
 
@@ -81,5 +185,17 @@
         android:text="@string/new_game_save_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_reset_button"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/new_game_reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game_reset_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_save_button"
+        app:layout_constraintTop_toTopOf="@+id/new_game_save_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
