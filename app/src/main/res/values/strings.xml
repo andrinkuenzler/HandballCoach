@@ -29,6 +29,25 @@
 
     <!--Statistics-->
     <string name="main_statistics_button">Spiel Statistik</string>
+    <!--Statistics-Select-->
+    <string name="statistics_select_game_title">Spiel auswählen</string>
+    <string name="statistics_spinner">Spiel auswählen</string>
+    <!--Statistics-Show-->
+    <string name="statistics_show_title">Spielname: </string>
+    <string name="statistics_show_attack_front_left">Angriff Vorne Links:</string>
+    <string name="statistics_show_attack_front_mid">Angriff Vorne Mitte:</string>
+    <string name="statistics_show_attack_front_right">Angriff Vorne Rechts:</string>
+    <string name="statistics_show_attack_back_left">Angriff Hinten Links:</string>
+    <string name="statistics_show_attack_back_mid">Angriff Hinten Mitte:</string>
+    <string name="statistics_show_attack_back_right">Angriff Hinten Rechts:</string>
+    <string name="statistics_show_defense_front_left">Verteidigung Vorne Links:</string>
+    <string name="statistics_show_defense_front_mid">Verteidigung Vorne Mitte:</string>
+    <string name="statistics_show_defense_front_right">Verteidigung Vorne Rechts:</string>
+    <string name="statistics_show_defense_back_left">Verteidigung Hinten Links:</string>
+    <string name="statistics_show_defense_back_mid">Verteidigung Hinten Mitte:</string>
+    <string name="statistics_show_defense_back_right">Verteidigung Hinten Rechts:</string>
+    <!--Statistics-Delete-->
+    <string name="statistics_delete_game">Spiel Löschen</string>
 
     <!--Preferences-->
     <string name="main_preferences_button">Einstellungen</string>

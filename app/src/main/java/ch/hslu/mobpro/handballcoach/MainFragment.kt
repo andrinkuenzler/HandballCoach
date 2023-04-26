@@ -33,6 +33,15 @@ class MainFragment: Fragment(R.layout.fragment_main) {
                 .commit()
         }
 
+        // Statistics
+        binding.mainStatisticsButton.setOnClickListener{
+            parentFragmentManager
+                .beginTransaction()
+                .replace(R.id.fragment_host, StatisticsFragment())
+                .addToBackStack("statistics")
+                .commit()
+        }
+
         // Preferences
         binding.mainPreferencesButton.setOnClickListener {
             parentFragmentManager

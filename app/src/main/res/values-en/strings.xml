@@ -29,6 +29,25 @@
 
     <!--Statistics-->
     <string name="main_statistics_button">Game Statistics</string>
+    <!--Statistics-Select-->
+    <string name="statistics_select_game_title">Select Game</string>
+    <string name="statistics_spinner">Select Game</string>
+    <!--Statistics-Show-->
+    <string name="statistics_show_title">Game name: </string>
+    <string name="statistics_show_attack_front_left">Attack Front Left:</string>
+    <string name="statistics_show_attack_front_mid">Attack Front Middle:</string>
+    <string name="statistics_show_attack_front_right">Attack Front Right:</string>
+    <string name="statistics_show_attack_back_left">Attack Back Left:</string>
+    <string name="statistics_show_attack_back_mid">Attack Back Middle:</string>
+    <string name="statistics_show_attack_back_right">Attack Back Right:</string>
+    <string name="statistics_show_defense_front_left">Defense Front Left:</string>
+    <string name="statistics_show_defense_front_mid">Defense Front Middle:</string>
+    <string name="statistics_show_defense_front_right">VDefense Front Right:</string>
+    <string name="statistics_show_defense_back_left">Defense Back Left:</string>
+    <string name="statistics_show_defense_back_mid">Defense Back Middle:</string>
+    <string name="statistics_show_defense_back_right">Defense Back Right:</string>
+    <!--Statistics-Delete-->
+    <string name="statistics_delete_game">Delete Game</string>
 
     <!--Preferences-->
     <string name="main_preferences_button">Settings</string>
