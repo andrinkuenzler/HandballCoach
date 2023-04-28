@@ -1,4 +1,4 @@
-package ch.hslu.mobpro.handballcoach
+package ch.hslu.mobpro.handballcoach.preferences
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

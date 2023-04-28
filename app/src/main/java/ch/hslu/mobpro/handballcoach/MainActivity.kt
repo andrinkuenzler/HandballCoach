@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
+import ch.hslu.mobpro.handballcoach.preferences.PreferencesViewModel
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
 

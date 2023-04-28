@@ -1,4 +1,4 @@
-package ch.hslu.mobpro.handballcoach
+package ch.hslu.mobpro.handballcoach.room.database
 
 import androidx.room.*
 

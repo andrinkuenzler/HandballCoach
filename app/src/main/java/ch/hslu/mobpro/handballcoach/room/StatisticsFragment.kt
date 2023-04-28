@@ -1,4 +1,4 @@
-package ch.hslu.mobpro.handballcoach
+package ch.hslu.mobpro.handballcoach.room
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -10,7 +10,10 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
+import ch.hslu.mobpro.handballcoach.R
 import ch.hslu.mobpro.handballcoach.databinding.FragmentStatisticsBinding
+import ch.hslu.mobpro.handballcoach.room.database.HandballDao
+import ch.hslu.mobpro.handballcoach.room.database.HandballDatabase
 import kotlinx.coroutines.launch
 
 class StatisticsFragment: Fragment(R.layout.fragment_statistics), AdapterView.OnItemSelectedListener {

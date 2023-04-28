@@ -1,7 +1,8 @@
-package ch.hslu.mobpro.handballcoach
+package ch.hslu.mobpro.handballcoach.preferences
 
 import android.os.Bundle
 import androidx.preference.PreferenceFragmentCompat
+import ch.hslu.mobpro.handballcoach.R
 
 class PreferencesFragment : PreferenceFragmentCompat() {
 

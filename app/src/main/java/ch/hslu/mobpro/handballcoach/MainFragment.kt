@@ -5,6 +5,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import ch.hslu.mobpro.handballcoach.room.NewGameFragment
+import ch.hslu.mobpro.handballcoach.room.StatisticsFragment
+import ch.hslu.mobpro.handballcoach.preferences.PreferencesFragment
 import ch.hslu.mobpro.handballcoach.databinding.FragmentMainBinding
 
 class MainFragment: Fragment(R.layout.fragment_main) {

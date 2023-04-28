@@ -1,4 +1,4 @@
-package ch.hslu.mobpro.handballcoach
+package ch.hslu.mobpro.handballcoach.room
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,11 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import ch.hslu.mobpro.handballcoach.R
 import ch.hslu.mobpro.handballcoach.databinding.FragmentNewGameBinding
+import ch.hslu.mobpro.handballcoach.room.database.Handball
+import ch.hslu.mobpro.handballcoach.room.database.HandballDao
+import ch.hslu.mobpro.handballcoach.room.database.HandballDatabase
 
 class NewGameFragment: Fragment(R.layout.fragment_new_game) {
 
