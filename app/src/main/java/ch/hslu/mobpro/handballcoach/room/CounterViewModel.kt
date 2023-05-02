@@ -14,6 +14,11 @@ class CounterViewModel: ViewModel() {
     private var counterAttackBackMid = 0
     private var counterAttackBackRight = 0
 
+    // Technical
+    private var counterTechnicalDouble = 0
+    private var counterTechnicalStep = 0
+    private var counterTechnicalCatch = 0
+
     // Defense Front
     private var counterDefenseFrontLeft = 0
     private var counterDefenseFrontMid = 0
@@ -66,6 +71,27 @@ class CounterViewModel: ViewModel() {
     }
     fun getCounterAttackBackRight(): Int {
         return counterAttackBackRight
+    }
+
+    // Technical
+    fun incCounterTechnicalDouble() {
+        counterTechnicalDouble++
+    }
+    fun getCounterTechnicalDouble(): Int {
+        return counterTechnicalDouble
+    }
+
+    fun incCounterTechnicalStep() {
+        counterTechnicalStep++
+    }
+    fun getCounterTechnicalStep(): Int {
+        return counterTechnicalStep
+    }
+    fun incCounterTechnicalCatch() {
+        counterTechnicalCatch++
+    }
+    fun getCounterTechnicalCatch(): Int {
+        return counterTechnicalCatch
     }
 
     // Defense Front
@@ -121,6 +147,10 @@ class CounterViewModel: ViewModel() {
         counterAttackBackLeft = 0
         counterAttackBackMid = 0
         counterAttackBackRight = 0
+        // Technical
+        counterTechnicalDouble = 0
+        counterTechnicalStep = 0
+        counterTechnicalCatch = 0
         // Defense Front
         counterDefenseFrontLeft = 0
         counterDefenseFrontMid = 0

@@ -2,7 +2,7 @@
     <string name="app_name">Handball Coach</string>
 
     <!--New Game-->
-    <string name="main_new_game_button">Neues Spiel</string>
+    <string name="main_new_game_button">Spielansicht</string>
     <!--New Game-Angriff-->
     <string name="new_game_attack_title">Angriff</string>
     <string name="new_game_attack_front_left_button">Vorne Links:</string>
@@ -11,6 +11,11 @@
     <string name="new_game_attack_back_left_button">Hinten Links:</string>
     <string name="new_game_attack_back_mid_button">Hinten Mitte:</string>
     <string name="new_game_attack_back_right_button">Hinten Rechts:</string>
+    <!--New Game-Technical-->
+    <string name="new_game_technical_title">Technische Fehler</string>
+    <string name="new_game_technical_double">Doppel Fehler:</string>
+    <string name="new_game_technical_step">Schritt Fehler:</string>
+    <string name="new_game_technical_catch">Fang Fehler:</string>
     <!--New Game-Verteidigung-->
     <string name="new_game_defense_title">Verteidigung</string>
     <string name="new_game_defense_front_left_button">Vorne Links:</string>
@@ -40,6 +45,9 @@
     <string name="statistics_show_attack_back_left">Angriff Hinten Links:</string>
     <string name="statistics_show_attack_back_mid">Angriff Hinten Mitte:</string>
     <string name="statistics_show_attack_back_right">Angriff Hinten Rechts:</string>
+    <string name="statistics_technical_double">Doppel Fehler:</string>
+    <string name="statistics_technical_step">Schritt Fehler:</string>
+    <string name="statistics_technical_catch">Fang Fehler:</string>
     <string name="statistics_show_defense_front_left">Verteidigung Vorne Links:</string>
     <string name="statistics_show_defense_front_mid">Verteidigung Vorne Mitte:</string>
     <string name="statistics_show_defense_front_right">Verteidigung Vorne Rechts:</string>

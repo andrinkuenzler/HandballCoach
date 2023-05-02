@@ -77,6 +77,47 @@
         app:layout_constraintTop_toBottomOf="@+id/new_game_attack_front_right_button" />
 
     <TextView
+        android:id="@+id/new_game_technical_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/new_game_technical_title"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_attack_back_mid_button" />
+
+    <Button
+        android:id="@+id/new_game_technical_double"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_technical_double"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_technical_step"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_technical_title" />
+
+    <Button
+        android:id="@+id/new_game_technical_step"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_technical_step"
+        app:layout_constraintEnd_toStartOf="@+id/new_game_technical_catch"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_technical_double"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_technical_title" />
+
+    <Button
+        android:id="@+id/new_game_technical_catch"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:text="@string/new_game_technical_catch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/new_game_technical_step"
+        app:layout_constraintTop_toBottomOf="@+id/new_game_technical_title" />
+
+    <TextView
         android:id="@+id/new_game_defense_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -85,7 +126,7 @@
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/new_game_attack_back_mid_button" />
+        app:layout_constraintTop_toBottomOf="@+id/new_game_technical_double" />
 
     <Button
         android:id="@+id/new_game_defense_front_left_button"

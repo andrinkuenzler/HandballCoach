@@ -48,6 +48,9 @@ class NewGameFragment: Fragment(R.layout.fragment_new_game) {
             val attackBackLeft = counterViewModel.getCounterAttackBackLeft().toString()
             val attackBackMid = counterViewModel.getCounterAttackBackMid().toString()
             val attackBackRight = counterViewModel.getCounterAttackBackRight().toString()
+            val technicalDouble = counterViewModel.getCounterTechnicalDouble().toString()
+            val technicalStep = counterViewModel.getCounterTechnicalStep().toString()
+            val technicalCatch = counterViewModel.getCounterTechnicalCatch().toString()
             val defenseFrontLeft = counterViewModel.getCounterDefenseFrontLeft().toString()
             val defenseFrontMid = counterViewModel.getCounterDefenseFrontMid().toString()
             val defenseFrontRight = counterViewModel.getCounterDefenseFrontRight().toString()
@@ -62,6 +65,9 @@ class NewGameFragment: Fragment(R.layout.fragment_new_game) {
                 attackBackLeft = attackBackLeft,
                 attackBackMid = attackBackMid,
                 attackBackRight = attackBackRight,
+                technicalDouble = technicalDouble,
+                technicalStep = technicalStep,
+                technicalCatch = technicalCatch,
                 defenseFrontLeft = defenseFrontLeft,
                 defenseFrontMid = defenseFrontMid,
                 defenseFrontRight = defenseFrontRight,
@@ -85,6 +91,10 @@ class NewGameFragment: Fragment(R.layout.fragment_new_game) {
         binding.newGameAttackBackLeftButton.text = getString(R.string.new_game_attack_back_left_button) + "" + counterViewModel.getCounterAttackBackLeft().toString()
         binding.newGameAttackBackMidButton.text = getString(R.string.new_game_attack_back_mid_button) + "" + counterViewModel.getCounterAttackBackMid().toString()
         binding.newGameAttackBackRightButton.text = getString(R.string.new_game_attack_back_right_button) + "" + counterViewModel.getCounterAttackBackRight().toString()
+        // Technical
+        binding.newGameTechnicalDouble.text = getString(R.string.new_game_technical_double) + " " + counterViewModel.getCounterTechnicalDouble().toString()
+        binding.newGameTechnicalStep.text = getString(R.string.new_game_technical_step) + " " + counterViewModel.getCounterTechnicalStep().toString()
+        binding.newGameTechnicalCatch.text = getString(R.string.new_game_technical_step) + " " + counterViewModel.getCounterTechnicalCatch().toString()
         // Defense Front
         binding.newGameDefenseFrontLeftButton.text = getString(R.string.new_game_defense_front_left_button) + "" + counterViewModel.getCounterDefenseFrontLeft().toString()
         binding.newGameDefenseFrontMidButton.text = getString(R.string.new_game_defense_front_mid_button) + "" + counterViewModel.getCounterDefenseFrontMid().toString()
@@ -104,6 +114,10 @@ class NewGameFragment: Fragment(R.layout.fragment_new_game) {
         val attackBackLeft = binding.newGameAttackBackLeftButton
         val attackBackMid = binding.newGameAttackBackMidButton
         val attackBackRight = binding.newGameAttackBackRightButton
+        // Technical
+        val technicalDouble = binding.newGameTechnicalDouble
+        val technicalStep = binding.newGameTechnicalStep
+        val technicalCatch = binding.newGameTechnicalCatch
         // Defense Front
         val defenseFrontLeft = binding.newGameDefenseFrontLeftButton
         val defenseFrontMid = binding.newGameDefenseFrontMidButton
@@ -143,6 +157,22 @@ class NewGameFragment: Fragment(R.layout.fragment_new_game) {
         attackBackRight.setOnClickListener{ view ->
             counterViewModel.incCounterAttackBackRight()
             attackBackRight.text = getString(R.string.new_game_attack_back_right_button) + "" + counterViewModel.getCounterAttackBackRight().toString()
+        }
+
+        // Technical
+        technicalDouble.setOnClickListener{ view ->
+            counterViewModel.incCounterTechnicalDouble()
+            technicalDouble.text = getString(R.string.new_game_technical_double) + " " + counterViewModel.getCounterTechnicalDouble().toString()
+        }
+
+        technicalStep.setOnClickListener{ view ->
+            counterViewModel.incCounterTechnicalStep()
+            technicalStep.text = getString(R.string.new_game_technical_step) + " " + counterViewModel.getCounterTechnicalStep().toString()
+        }
+
+        technicalCatch.setOnClickListener{ view ->
+            counterViewModel.incCounterTechnicalCatch()
+            technicalCatch.text = getString(R.string.new_game_technical_catch) + " " + counterViewModel.getCounterTechnicalCatch().toString()
         }
 
         // Defense Front

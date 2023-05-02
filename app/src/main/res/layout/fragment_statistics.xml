@@ -81,12 +81,36 @@
         app:layout_constraintTop_toBottomOf="@+id/statistics_show_attack_back_mid" />
 
     <TextView
+        android:id="@+id/statistics_technical_double"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics_technical_double"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statistics_show_attack_back_right" />
+
+    <TextView
+        android:id="@+id/statistics_technical_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics_technical_step"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statistics_technical_double" />
+
+    <TextView
+        android:id="@+id/statistics_technical_catch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics_technical_catch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statistics_technical_step" />
+
+    <TextView
         android:id="@+id/statistics_show_defense_front_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/statistics_show_defense_front_left"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/statistics_show_attack_back_right" />
+        app:layout_constraintTop_toBottomOf="@+id/statistics_technical_catch" />
 
     <TextView
         android:id="@+id/statistics_show_defense_front_mid"

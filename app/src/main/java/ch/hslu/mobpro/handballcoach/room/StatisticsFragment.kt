@@ -77,6 +77,9 @@ class StatisticsFragment: Fragment(R.layout.fragment_statistics), AdapterView.On
             binding.statisticsShowAttackBackLeft.text = getString(R.string.statistics_show_attack_back_left) + " " + game.attackBackLeft
             binding.statisticsShowAttackBackMid.text = getString(R.string.statistics_show_attack_back_mid) + " " + game.attackBackMid
             binding.statisticsShowAttackBackRight.text = getString(R.string.statistics_show_attack_back_right) + " " + game.attackBackRight
+            binding.statisticsTechnicalDouble.text = getString(R.string.statistics_technical_double) + " " + game.technicalDouble
+            binding.statisticsTechnicalStep.text = getString(R.string.statistics_technical_step) + " " + game.technicalStep
+            binding.statisticsTechnicalCatch.text = getString(R.string.statistics_technical_catch) + " " + game.technicalCatch
             binding.statisticsShowDefenseFrontLeft.text = getString(R.string.statistics_show_defense_front_left) + " " + game.defenseFrontLeft
             binding.statisticsShowDefenseFrontMid.text = getString(R.string.statistics_show_defense_front_mid) + " " + game.defenseFrontMid
             binding.statisticsShowDefenseFrontRight.text = getString(R.string.statistics_show_defense_front_right) + " " + game.defenseFrontRight
