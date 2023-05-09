@@ -1,7 +1,6 @@
 package ch.hslu.mobpro.handballcoach
 
 import org.junit.Test
-
 import org.junit.Assert.*
 
 /**
