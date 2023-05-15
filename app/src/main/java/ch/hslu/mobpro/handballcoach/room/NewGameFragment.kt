@@ -94,7 +94,7 @@ class NewGameFragment: Fragment(R.layout.fragment_new_game) {
         // Technical
         binding.newGameTechnicalDouble.text = getString(R.string.new_game_technical_double) + " " + counterViewModel.getCounterTechnicalDouble().toString()
         binding.newGameTechnicalStep.text = getString(R.string.new_game_technical_step) + " " + counterViewModel.getCounterTechnicalStep().toString()
-        binding.newGameTechnicalCatch.text = getString(R.string.new_game_technical_step) + " " + counterViewModel.getCounterTechnicalCatch().toString()
+        binding.newGameTechnicalCatch.text = getString(R.string.new_game_technical_catch) + " " + counterViewModel.getCounterTechnicalCatch().toString()
         // Defense Front
         binding.newGameDefenseFrontLeftButton.text = getString(R.string.new_game_defense_front_left_button) + "" + counterViewModel.getCounterDefenseFrontLeft().toString()
         binding.newGameDefenseFrontMidButton.text = getString(R.string.new_game_defense_front_mid_button) + "" + counterViewModel.getCounterDefenseFrontMid().toString()
