@@ -14,7 +14,7 @@ import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.CoreMatchers.equalTo
 
 
-class HandballDatabaseUnitTest {
+class HandballDatabaseTest {
     private lateinit var handballDao: HandballDao
     private lateinit var db: HandballDatabase
 
