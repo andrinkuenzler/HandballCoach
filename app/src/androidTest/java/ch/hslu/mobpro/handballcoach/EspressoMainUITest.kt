@@ -15,17 +15,17 @@ import org.junit.runner.RunWith
 
 @LargeTest
 @RunWith(AndroidJUnit4::class)
-class EspressoUIMainViewTest {
+class EspressoMainUITest {
 
     @Rule
     @JvmField
     var mActivityScenarioRule = ActivityScenarioRule(MainActivity::class.java)
 
     @Test
-    fun espressoUIMainViewTest() {
+    fun espressoMainUITest() {
         val button = onView(
             allOf(
-                withId(R.id.main_new_game_button), withText("SPIELANSICHT"),
+                withId(R.id.main_new_game_button), withText("GAME VIEW"),
                 withParent(withParent(withId(R.id.fragment_host))),
                 isDisplayed()
             )
@@ -34,7 +34,7 @@ class EspressoUIMainViewTest {
 
         val button2 = onView(
             allOf(
-                withId(R.id.main_statistics_button), withText("SPIEL STATISTIK"),
+                withId(R.id.main_statistics_button), withText("GAME STATISTICS"),
                 withParent(withParent(withId(R.id.fragment_host))),
                 isDisplayed()
             )
@@ -43,7 +43,7 @@ class EspressoUIMainViewTest {
 
         val button3 = onView(
             allOf(
-                withId(R.id.main_preferences_button), withText("EINSTELLUNGEN"),
+                withId(R.id.main_preferences_button), withText("SETTINGS"),
                 withParent(withParent(withId(R.id.fragment_host))),
                 isDisplayed()
             )
