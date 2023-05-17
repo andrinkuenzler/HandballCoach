@@ -36,3 +36,14 @@ In den Settings kannst du den Darkmode oder den Lighmode auswählen, auch die Sp
 -- Launcer Icon
 -- ScreenOrientation
 
+############################
+# ESPRESSOTESTS            #
+############################
+
+Für die Espressotests muss die App im Default gestartet werden, es dürfen noch keine Einstellungen oder Änderungen vorgenommen werden.
+Es muss der erste Start der App sein, sonst schlagen einige Espresso UI Tests fehl.
+Auch muss das Smartphone auf Englisch eingestellt sein, da in dieser Sprache getestet wurde.
+
+
+
+
